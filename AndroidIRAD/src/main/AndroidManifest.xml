@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tag.instagramdemo"
+    package="com.tag.AndroidIRAD"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,7 +10,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name=".example.MainActivity"
+            android:name="com.tag.AndroidIRAD.example.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".example.AllMediaFiles"></activity>
-        <activity android:name=".example.Relationship"></activity>
+        <activity android:name="com.tag.AndroidIRAD.example.AllMediaFiles"></activity>
+        <activity android:name="com.tag.AndroidIRAD.example.Relationship"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
