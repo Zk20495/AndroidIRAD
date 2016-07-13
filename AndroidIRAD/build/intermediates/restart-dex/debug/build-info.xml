@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="19"
+    density="420dpi"
+    format="7"
+    timestamp="1125144884286509"
+    token="-8590004537068038646" >
+
+    <task
+        name="javac"
+        duration="711" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="576" />
+    <task
+        name="verifier"
+        duration="203" />
+
+    <artifact
+        location="C:\Users\ZKEISER\Documents\instagram-integration-android-application-tutorial-master\AndroidIRAD\build\outputs\apk\AndroidIRAD-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1125144884286509" >
+        <artifact
+            location="C:\Users\ZKEISER\Documents\instagram-integration-android-application-tutorial-master\AndroidIRAD\build\outputs\apk\AndroidIRAD-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
