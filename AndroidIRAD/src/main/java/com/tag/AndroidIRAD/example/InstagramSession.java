@@ -8,9 +8,6 @@ import android.content.Context;
  * Manage access token and user name. Uses shared preferences to store access
  * token and user name.
  * 
- * @author Thiago Locatelli <thiago.locatelli@gmail.com>
- * @author Lorensius W. L T <lorenz@londatiga.net>
- * 
  */
 public class InstagramSession {
 

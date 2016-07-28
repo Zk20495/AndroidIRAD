@@ -17,12 +17,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-/**
- * 
- * @author Thiago Locatelli <thiago.locatelli@gmail.com>
- * @author Lorensius W. L T <lorenz@londatiga.net>
- * 
- */
+
 public class InstagramApp {
 
 	private InstagramSession mSession;

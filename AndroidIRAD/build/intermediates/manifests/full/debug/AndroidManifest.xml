@@ -15,7 +15,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="com.tag.AndroidIRAD1.example.MainActivity"
+            android:name="com.tag.AndroidIRAD.example.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -24,8 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.tag.AndroidIRAD1.example.AllMediaFiles" />
-        <activity android:name="com.tag.AndroidIRAD1.example.Relationship" />
+        <activity android:name="com.tag.AndroidIRAD.example.AllMediaFiles" />
+        <activity android:name="com.tag.AndroidIRAD.example.Relationship" />
     </application>
 
 </manifest>

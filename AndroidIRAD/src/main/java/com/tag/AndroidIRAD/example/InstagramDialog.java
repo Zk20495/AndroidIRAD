@@ -22,9 +22,6 @@ import android.widget.TextView;
 /**
  * Display 37Signals authentication dialog.
  * 
- * @author Thiago Locatelli <thiago.locatelli@gmail.com>
- * @author Lorensius W. L T <lorenz@londatiga.net>
- * 
  */
 public class InstagramDialog extends Dialog {
 
