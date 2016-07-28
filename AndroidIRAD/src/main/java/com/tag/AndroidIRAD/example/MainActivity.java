@@ -38,10 +38,10 @@ public class MainActivity extends Activity implements OnClickListener {
 			if (msg.what == InstagramApp.WHAT_FINALIZE) {
 				userInfoHashmap = mApp.getUserInfo();
 			}
-			// else if (msg.what != InstagramApp.WHAT_FINALIZE) {
-				//Toast.makeText(MainActivity.this, "Check your network.",
-				//		Toast.LENGTH_SHORT).show();
-			//}
+			else if (msg.what != InstagramApp.WHAT_FINALIZE) {
+				Toast.makeText(MainActivity.this, "Check your network.",
+						Toast.LENGTH_SHORT).show();
+			}
 			return false;
 		}
 	});
